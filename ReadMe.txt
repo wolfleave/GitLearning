@@ -19,3 +19,10 @@ Git同样告诉我们，用命令git reset HEAD file可以把暂存区的修改�
 git remote 
 
 git checkout -b dev  创建并切换到dev分支
+
+git merge dev  把dev分支合并到当前分支
+
+git branch 查看分支
+git branch <name> 创建分支
+git checkout <name> 切换分支
+git branch -d <name> 删除分支
